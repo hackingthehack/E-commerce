@@ -3,7 +3,7 @@ export const ShopContext = createContext(null);
 
 const getDefaultCart = () => {
 
-  const url = "https://e-commerce-y7dt.onrender.com";
+  // const url = "https://e-commerce-y7dt.onrender.com";
   let cart = {};
   for (let index = 0; index < 300 + 1; index++) {
     cart[index] = 0;
